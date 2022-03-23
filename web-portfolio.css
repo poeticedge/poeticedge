@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+.body {
+padding: 0;
+margin: 0;
+}
+
+
+/*====================
+Fonts and links
+=====================*/
+.a:link {
+  color:#0000FF;
+}
+
+.a {
+	text-decoration: none;
+}
+
+/*====================
+Navigation style 
+=====================*/
+	.nav-bar {
+		margin-bottom: 0px;
+		height: 85px;
+	}
+
+	.nav-item {
+	  display: block;
+	  color: #7c7e7f;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-family: Lato;
+	  font-size: 1.5rem;
+	}
+
+/* Change the link color on hover */
+	.nav-item:hover {
+	  color: #4499e3;
+	}
+/* Change the link color on click */
+	.nav-item.active {
+	  color: #4499e3;
+	}
+
+.body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+
+}
+
+.main-section {
+    text-align: center;
+	padding: 50px 10px;
+	
+}
+.work-section {
+	background-color: #E8C7C8;
+	height: 700px;
+	text-align: center;
+	padding: 50px 45px;
+}
+.round-img {
+	border-radius: 50%;
+}
+.narrow-container {
+	max-width: 1200px;
+}
+.contact-form-section {
+	height: 500px;
+}
+.grey-footer {
+    background-color: #F5F5F5;
+	text-align: center;
+	height: 300px;
+    
+}
+.footer-socials {
+	padding: 65px 70px;
+}
+.linkedin-icon {
+    color: #585858;
+}
+
+.fa-brands, .fa-solid {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*====================
+Form
+=====================*/
+.contact-form-section {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: white;
+	height: 800px;
+} 
+.contact-form-section .container {
+	height: 600px;
+	max-width: 800px;
+	align-items: center;
+	background: #F5F5F5;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.contact-form-section form {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	background: #fff;
+	border-radius: 10px;
+	max-width: 600px;
+	padding: 30px 20px;
+	
+}
+.contact-form-section h3 {
+	color: #555;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.contact-form-section input, .contact-form-section textarea {
+	padding: 20px; 
+	font-size: 18px; 
+	margin: 10px 0; 
+	border: 0;
+	outline: none;
+	background: #F5F5F5
+}
+.submit-btn {
+	float: right; 
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: none;
+	outline: none;
+	background-color: lightpink;
+	font-size: 18px; 
+	curser: pointer;
+	
+}
